@@ -38,7 +38,8 @@ dfD = pd.read_csv(BytesIO(dataD), index_col=0)
 dfD.columns = ['Mail', 'Pergunta', 'Palestrante', 'NomeMail']
 NregD = len(dfD)
 
-
+st.title(" ")
+st.title(" ")
 st.title("#👋 PERGUNTAS E RESPOSTAS")
 st.sidebar.warning("Pergunte ao Palestrante")
 form = st.form('Q&A')
