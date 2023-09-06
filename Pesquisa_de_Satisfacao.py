@@ -37,7 +37,7 @@ Option = st.radio('Sua opinião sobre este evento é: ',
                       ['um Elogio',
                        'uma Sugestão',
                        'uma Crítica'])
-MSG = form.text_input('Em poucas palavra, resuma este evento:')    
+MSG = form.text_input('Em poucas palavras, resuma este evento:')    
 link = 'https://docs.google.com/forms/d/e/1FAIpQLScSIJfNXVEfHe4ZZWu66gfDpmP5zPONWA86JD62cDsGSQsRnQ/formResponse?&submit=Submit?usp=pp_url&entry.1642074533='
 link += str(Option)
 link += '&entry.1002049217='
