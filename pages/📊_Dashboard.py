@@ -24,7 +24,7 @@ st.set_page_config(page_title="Painel_Analítico", page_icon="📊")
 st.markdown("# Índice de Satisfação")
 st.sidebar.success("Índice de Satisfação")
 
-@st.cache_data
+#@st.cache_data
 def get_data():
     http = urllib3.PoolManager()
     rD = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vToT79VG5Elh9ywpqdaBPBNXtq7yTNnM_JnCuUJvib7LTDMnlrQCMrkYSQLKE9oK_z4x504ZUd88W5X/pub?gid=1995100581&single=true&output=csv')
