@@ -56,4 +56,4 @@ submit = form.form_submit_button('ENVIAR')
 if submit:
     r = http.request('GET', link)
 st.dataframe(dfD)
-st.info("Desenvolvido por: Equipe FabLab / Prof. Massaki de O. Igarashi")
+st.info("Desenvolvido por: Equipe FabLab / Prof. Massaki Igarashi")
