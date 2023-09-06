@@ -86,7 +86,7 @@ try:
     #st.pyplot()
     wordcloud.to_file("Nuvem_de_Palavras.png")
 
-    st.markdown("# Impressoes:")
+    st.markdown("# Impressões:")
     st.pyplot() #Este método faz exibirt a nuvem de palavras
     st.set_option('deprecation.showPyplotGlobalUse', False)
     st.header("Análise das Palavras:")
