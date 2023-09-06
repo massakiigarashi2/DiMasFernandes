@@ -29,6 +29,7 @@ def add_bg_from_local(image_file):
 add_bg_from_local('fundo00.jpg')
 
 st.title(" ")
+st.title(" ")
 st.header("PESQUISA DE SATISFAÇÃO 😀 ")
 st.sidebar.success("Pesquisa de Satisfação")
 form = st.form('Pesquisa_de_Satisfação')
