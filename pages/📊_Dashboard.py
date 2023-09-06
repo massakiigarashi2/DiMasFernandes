@@ -57,7 +57,6 @@ try:
     with col3:       
         pCritica = round(100*len(Critica)/TotalREG,1)
         st.markdown("### Críticas = " + str(pCritica) + "%")
-    st.write("TOTAL REG = " + str(TotalREG))
     # concatenar as palavras
     all_summary = " ".join(s for s in summary)
     # lista de stopword
