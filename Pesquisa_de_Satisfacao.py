@@ -45,4 +45,4 @@ link += str(MSG)
 submit = form.form_submit_button(' ✔️ ENVIAR')
 if submit:
     r = http.request('GET', link)
-st.info("Desenvolvido por: Equipe FabLab / Prof. Massaki Igarashi")
+st.info("Desenv. por: Prof. Massaki Igarashi")
