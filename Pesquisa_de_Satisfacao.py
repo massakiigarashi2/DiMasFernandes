@@ -29,7 +29,7 @@ def add_bg_from_local(image_file):
 add_bg_from_local('fundo00.jpg')
 
 
-st.title("PESQUISA DE SATISFAÇÃO 😀 ")
+st.header("PESQUISA DE SATISFAÇÃO 😀 ")
 st.sidebar.success("Pesquisa de Satisfação")
 form = st.form('Pesquisa_de_Satisfação')
 Option = st.radio('Sua opinião sobre este evento é: ',
