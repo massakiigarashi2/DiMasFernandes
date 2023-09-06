@@ -42,7 +42,7 @@ link = 'https://docs.google.com/forms/d/e/1FAIpQLScSIJfNXVEfHe4ZZWu66gfDpmP5zPON
 link += str(Option)
 link += '&entry.1002049217='
 link += str(MSG)
-submit = form.form_submit_button('ENVIAR')
+submit = form.form_submit_button(' ✔️ ENVIAR')
 if submit:
     r = http.request('GET', link)
 st.info("Desenvolvido por: Equipe FabLab / Prof. Massaki Igarashi")
