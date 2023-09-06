@@ -45,7 +45,4 @@ link += str(MSG)
 submit = form.form_submit_button('ENVIAR')
 if submit:
     r = http.request('GET', link)
-
-#image = Image.open('fundo01.jpg')
-#st.image(image, caption='Fundo01')
-st.sidebar.info("Desenvolvido por: Equipe FabLab / Prof. Massaki de O. Igarashi")
+st.info("Desenvolvido por: Equipe FabLab / Prof. Massaki de O. Igarashi")
