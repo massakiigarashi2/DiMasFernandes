@@ -93,7 +93,7 @@ try:
     chart_data = pd.DataFrame(wordfreq,wordlist)
     st.bar_chart(chart_data)
 
-    st.info("Desenvolvido por: Equipe FabLab / Prof. Massaki Igarashi")
+    st.info("Desenv. por: Prof. Massaki Igarashi")
 
 except URLError as e:
     st.error(
