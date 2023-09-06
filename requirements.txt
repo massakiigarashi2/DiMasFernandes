@@ -1,1 +1,9 @@
 streamlit==1.11.0
+pandas
+plotly
+altair 
+numpy
+matplotlib
+requests
+wordcloud
+#urllib
