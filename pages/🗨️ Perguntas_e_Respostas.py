@@ -55,7 +55,7 @@ link += '&entry.1729513605='
 link += str(PALESTRANTE)
 link += '&entry.1163103571='
 link += str(NOME_MAIL)
-submit = form.form_submit_button('ENVIAR')
+submit = form.form_submit_button(' ✔️ ENVIAR')
 if submit:
     r = http.request('GET', link)
 st.dataframe(df)
