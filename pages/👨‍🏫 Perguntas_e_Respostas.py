@@ -36,6 +36,9 @@ rD1 = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vToT79VG5Elh
 dataD = rD1.content
 dfD = pd.read_csv(BytesIO(dataD), index_col=0)
 dfD.columns = ['Mail', 'Pergunta', 'Palestrante', 'NomeMail']
+df = pd.DataFrame({'PERGUNTA': dfD['Pergunta'],
+                   'PALESTRANTE': dfD['Palestrante'],
+                   'NOME_E/OU_MAIL': dfD['NomeMail']})
 NregD = len(dfD)
 
 st.title(" ")
@@ -55,5 +58,5 @@ link += str(NOME_MAIL)
 submit = form.form_submit_button('ENVIAR')
 if submit:
     r = http.request('GET', link)
-st.dataframe(dfD)
+st.dataframe(df)
 st.info("Desenv. por: Prof. Massaki Igarashi")
