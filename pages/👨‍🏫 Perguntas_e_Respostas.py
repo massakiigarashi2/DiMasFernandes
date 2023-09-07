@@ -13,7 +13,7 @@ http = urllib3.PoolManager()
 
 st.set_page_config(
     page_title="Perguntas&Respostas😀",
-    page_icon="😀",
+    page_icon=" 😀 ",
 )
 
 def add_bg_from_local(image_file):
