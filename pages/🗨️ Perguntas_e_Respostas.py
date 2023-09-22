@@ -32,6 +32,7 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('fundo00.jpg')
 
+#rD1 = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vToT79VG5Elh9ywpqdaBPBNXtq7yTNnM_JnCuUJvib7LTDMnlrQCMrkYSQLKE9oK_z4x504ZUd88W5X/pub?gid=162224156&single=true&output=csv')
 rD1 = requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vToT79VG5Elh9ywpqdaBPBNXtq7yTNnM_JnCuUJvib7LTDMnlrQCMrkYSQLKE9oK_z4x504ZUd88W5X/pub?gid=162224156&single=true&output=csv')
 dataD = rD1.content
 dfD = pd.read_csv(BytesIO(dataD), index_col=0)
