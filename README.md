@@ -1,3 +1,3 @@
 # Participe!
-![IMAGEM1](https://github.com/lpgroup/liderancasIMA/blob/master/Invite.jpg)
+![Desenvolvimento](https://github.com/massakiigarashi2/DiMasFernandes/blob/master/desenvolvimento.jpg)
 ## e-mail: prof.massaki@gmail.com ou massaki.igarashi@mackenzie.br
