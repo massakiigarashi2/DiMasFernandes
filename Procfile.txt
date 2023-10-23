@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run Plataforma_DiMas_Fernandes.py

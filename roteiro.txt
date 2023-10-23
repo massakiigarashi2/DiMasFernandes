@@ -1,0 +1,27 @@
+G:\
+
+cd g:\webappDimasFernandes
+conda activate streamlit
+
+streamlit run Plataforma_DiMas_Fernandes.py
+
+python -m pip install --upgrade openai
+python -m pip install --upgrade streamlit
+python -m pip install --upgrade streamlit-chat
+python -m pip install --upgrade gTTS
+python -m pip install --upgrade wordcloud
+python -m pip install --upgrade matplotlib
+
+prog.massaki@gmail.com
+Google Forms: webappSEG
+https://docs.google.com/forms/d/10pNFO33cOXcaIkekSBVfqNkrmbwY1H5Rd20Paex-vGQ/edit
+
+https://docs.google.com/forms/d/e/1FAIpQLScSYzAW0ze2ChpreG0PZqdxf45wTJMwCqr92LeupYm8z0QTyg/viewform?usp=pp_url&entry.1680586862=MSG&entry.158598808=APROVADO&entry.1211796870=NOME&entry.472409006=MAIL
+
+SUBSTITUIR
+viewformusp=pp_url&entry
+por
+formResponse?&submit=Submit?usp=pp_url&entry
+
+https://docs.google.com/forms/d/e/1FAIpQLScSYzAW0ze2ChpreG0PZqdxf45wTJMwCqr92LeupYm8z0QTyg/formResponse?&submit=Submit?usp=pp_url
+&entry.1680586862=MSG&entry.158598808=APROVADO&entry.1211796870=NOME&entry.472409006=MAIL
