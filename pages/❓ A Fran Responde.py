@@ -6,7 +6,7 @@ from gtts import gTTS #Lib para Conversão Text2Voice. Em seguida pode usar Open
 import os
 
 #openai.api_key = "YOUR_API_KEY"
-openai.api_key = "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"
+openai.api_key = "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"
 LogoCCT = Image.open('CCT20anos.PNG')
 def api_calling(prompt):
 	completions = openai.Completion.create(
