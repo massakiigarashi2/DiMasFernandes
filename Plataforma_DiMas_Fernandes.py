@@ -7,6 +7,7 @@ import os
 
 #openai.api_key = "YOUR_API_KEY"
 openai.api_key = "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"
+LogoCCT = Image.open('CCT20anos.PNG')
 
 def api_calling(prompt):
 	completions = openai.Completion.create(
@@ -52,21 +53,21 @@ with st.chat_message("assistant"):
         '''
     st.markdown(mystyle2, unsafe_allow_html=True)    
 st.title('')
-#video_file = open('DiMasFernandes1.mp4', 'rb')
-#st.video(video_file.read())
-#st.title('')
+video_file = open('DiMasFernandes1.mp4', 'rb')
+st.video(video_file.read())
+st.title('')
 #Vìdeo e Mensagem sobre a Fran
-#with st.chat_message("assistant"):
-#    SOBRE_A_FRAN = '<p style="font-family:tahoma; color:black; font-size: 18px;">Para ajudar na sua trajetória de estudo, eu convidei a minha amiga Fran, que também está aqui, nesta mesma plataforma, e direcionará sua pergunta ao ChatGPT 3, apresentando a resposta da plataforma, por intermédio da API OpenAI.</p>'
-#    st.markdown(SOBRE_A_FRAN, unsafe_allow_html=True)
-#    mystyle3 = '''
-#        <style>
-#            p {
-#                text-align: justify;
-#            }
-#        </style>
-#        '''
-#    st.markdown(mystyle3, unsafe_allow_html=True)  
+with st.chat_message("assistant"):
+    SOBRE_A_FRAN = '<p style="font-family:tahoma; color:black; font-size: 18px;">Para ajudar na sua trajetória de estudo, eu convidei a minha amiga Fran, que também está aqui, nesta mesma plataforma, e direcionará sua pergunta ao ChatGPT 3, apresentando a resposta da plataforma, por intermédio da API OpenAI.</p>'
+    st.markdown(SOBRE_A_FRAN, unsafe_allow_html=True)
+    mystyle3 = '''
+        <style>
+            p {
+                text-align: justify;
+            }
+        </style>
+        '''
+    st.markdown(mystyle3, unsafe_allow_html=True)  
 
 
 st.markdown("""#### Professores Responsáveis: """)
@@ -87,3 +88,6 @@ Versao = '<p style="font-weight: bolder; color:Blue; font-size: 16px;">DiMas Fer
 st.sidebar.markdown(Versao, unsafe_allow_html=True)
 mystyle3 =   '''<style> p{text-align:center;}</style>''' 
 st.sidebar.markdown(mystyle3, unsafe_allow_html=True) 
+
+
+st.image(LogoCCT, width=670, caption='Mackenzie Campinas - 20 anos')
