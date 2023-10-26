@@ -9,11 +9,11 @@ image01 = Image.open('CVprofs.JPG')
 image02 = Image.open('CValunos.JPG')
 image03 = Image.open('CCT20anos.PNG')
 st.title("A Equipe Dimas Fernandes")  
-coluna1, coluna2 = st.columns((1,1))
-with coluna1:
-    st.image(image01, width=400, caption='Equipe Dimas Fernandes - Professores') 
-with coluna2:
-    st.image(image02, width=400, caption='Equipe Dimas Fernandes - Alunos') 
+#coluna1, coluna2 = st.columns((1,1))
+#with coluna1:
+st.image(image01, width=400, caption='Equipe Dimas Fernandes - Professores') 
+#with coluna2:
+st.image(image02, width=400, caption='Equipe Dimas Fernandes - Alunos') 
     
 st.markdown("""#### Professores Responsáveis: """)
  
